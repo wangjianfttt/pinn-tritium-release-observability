@@ -1,16 +1,16 @@
-# Minimal Ceramic-Breeder Transport Code
+# Ceramic-Breeder Transport Research Code
 
-This repository contains one basic, reduced one-dimensional transport example
-for lithium-ceramic breeder beds.
+This repository contains the source-code portion of a lithium-ceramic breeder
+transport study.
 
 The repository does not distribute manuscript files, supplementary material,
 figures, literature datasets, generated research results, submission files, or
-advanced inverse-analysis workflows.
+submission materials.
 
 ## Contents
 
-- `code/li_ceramic_bed_1d.py`: reduced one-dimensional ceramic-breeder
-  transport example.
+- `code/`: numerical transport, inverse-analysis, sensitivity and supporting
+  calculation scripts.
 - `requirements.txt`: minimal Python dependencies.
 
 ## Run
@@ -20,4 +20,5 @@ python3 -m pip install -r requirements.txt
 python3 code/li_ceramic_bed_1d.py --material li2tio3 --out output/li2tio3
 ```
 
-Generated output and figures are ignored by Git.
+Generated output and figures are ignored by Git. Some supporting scripts need
+locally generated inputs that are not distributed in this public repository.
